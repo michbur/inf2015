@@ -1,3 +1,4 @@
 #!/bin/bash
-grep "[a-k]$" $(echo "$HOME/moje_skrypty/lista") > $HOME/moje_skrypty/a-k
-grep "[l-z]$" $(echo "$HOME/moje_skrypty/lista") > $HOME/moje_skrypty/l-z
+mkdir pliki
+grep "[a-k]$" $(echo lista") > pliki/a-k
+grep "[l-z]$" $(echo "lista") > pliki/l-z
