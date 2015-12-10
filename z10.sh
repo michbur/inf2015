@@ -1,12 +1,11 @@
 #!/bin/bash
-echo "Podaj dlugosc boku:"
-read BOK
-if [ $BOK -gt 0 ]
- then
-  echo Obwod:
-  echo $(($BOK * 4))
-  echo Pole:
-  echo $(($BOK ** 2))
- else
-  echo "Bok musi byc wiekszy niz 0"
-fi
+echo "Podaj liczbe 1:"
+read LICZBA1
+echo "Podaj liczbe 2:"
+read LICZBA2
+echo "Suma"
+echo $(($LICZBA1 + $LICZBA2))
+echo "Roznica"
+echo $(($LICZBA1 - $LICZBA2))
+echo "Iloczyn"
+echo $(($LICZBA1 * $LICZBA2))
